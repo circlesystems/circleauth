@@ -17,7 +17,11 @@
     "2fa",
     "passwordless"
   ],
-  "author": "HabloApp Inc. <info@unicauth.com> (https://unicauth.com)",
+  "author": {
+    "name": "HabloApp Inc.",
+    "email": "info@unicauth.com",
+    "website": "https://unicauth.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/habloapp/unicauth/issues"
