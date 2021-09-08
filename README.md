@@ -1,7 +1,8 @@
-# unicauth
+# Unic Auth
 
-Unicauth - Node.js client
+UnicAuth - Node.js client
 
+Unic Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
 <br>
 
 This SDK is generated for [Unic Auth API](https://unicauth.com/alpha/docs/files/unicauth.yaml) version: 1.0.0
