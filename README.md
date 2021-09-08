@@ -8,6 +8,8 @@ This SDK is generated for [Unic Auth API](https://unicauth.com/alpha/docs/files/
 
 ## Installation
 
+First make sure to get your credentials on [Unic Auth](https://console.unicauth.com/), if you want to test first, use [Unic Auth - Demo](https://unicauth.com/demo)
+
 ### For [Node.js](https://nodejs.org/)
 
 #### npm
