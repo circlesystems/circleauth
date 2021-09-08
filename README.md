@@ -15,7 +15,7 @@ This SDK is generated for [Unic Auth API](https://unicauth.com/alpha/docs/files/
 Install it via:
 
 ```shell
-npm install unicauth --save
+npm install @habloapp/unicauth --save
 ```
 
 ## Getting Started
