@@ -67,3 +67,10 @@ Class | Method | HTTP request | Description
  - [Unicauth.Model2FARequestData](docs/Model2FARequestData.md)
  - [Unicauth.Model2FAResponseData](docs/Model2FAResponseData.md)
  - [Unicauth.ResponseError](docs/ResponseError.md)
+
+
+## Distribuition
+
+1.  Update package `version` at `package.json`.
+2.  Open terminal and run `npm publish`.
+3.  Visit https://www.npmjs.com/package/@habloapp/unicauth to check latest version.
