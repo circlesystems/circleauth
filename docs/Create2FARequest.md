@@ -1,4 +1,4 @@
-# Unicauth.Create2FARequest
+# CircleAuth.Create2FARequest
 
 ## Properties
 Name | Type | Description | Notes

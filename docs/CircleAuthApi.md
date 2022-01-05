@@ -1,13 +1,13 @@
-# Unicauth.UnicAuthApi
+# CircleAuth.CircleAuthApi
 
-All URIs are relative to *https://unicauth.com/api*
+All URIs are relative to *https://circleauth.gocircle.ai/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create2FA**](UnicAuthApi.md#create2FA) | **POST** /2fa/create/ | Create 2FA
-[**expireUserSession**](UnicAuthApi.md#expireUserSession) | **POST** user/session/expire | Expire User Session
-[**getSession**](UnicAuthApi.md#getSession) | **GET** /session/ | Get Session
-[**getUserSession**](UnicAuthApi.md#getUserSession) | **GET** user/session | Get User Session
+[**create2FA**](CircleAuthApi.md#create2FA) | **POST** /2fa/create/ | Create 2FA
+[**expireUserSession**](CircleAuthApi.md#expireUserSession) | **POST** user/session/expire | Expire User Session
+[**getSession**](CircleAuthApi.md#getSession) | **GET** /session/ | Get Session
+[**getUserSession**](CircleAuthApi.md#getUserSession) | **GET** user/session | Get User Session
 
 <a name="create2FA"></a>
 # **create2FA**
@@ -19,10 +19,10 @@ This endpoint creates a new factor authorization URL.
 
 ### Example
 ```javascript
-import {Unicauth} from 'unicauth';
+import {CircleAuth} from 'circleauth';
 
-let apiInstance = new Unicauth.UnicAuthApi();
-let body = new Unicauth.Create2FARequest(); // Create2FARequest | 
+let apiInstance = new CircleAuth.CircleAuthApi();
+let body = new CircleAuth.Create2FARequest(); // Create2FARequest | 
 let x_ua_appKey = "x_ua_appKey_example"; // String | Application `appKey`
 
 apiInstance.create2FA(body, x_ua_appKey).then((data) => {
@@ -61,10 +61,10 @@ Expire User Session
 
 ### Example
 ```javascript
-import {Unicauth} from 'unicauth';
+import {CircleAuth} from 'circleauth';
 
-let apiInstance = new Unicauth.UnicAuthApi();
-let body = new Unicauth.ExpireUserSessionRequest(); // ExpireUserSessionRequest | 
+let apiInstance = new CircleAuth.CircleAuthApi();
+let body = new CircleAuth.ExpireUserSessionRequest(); // ExpireUserSessionRequest | 
 let x_ua_appKey = "x_ua_appKey_example"; // String | Application `appKey`
 
 apiInstance.expireUserSession(body, x_ua_appKey).then((data) => {
@@ -103,9 +103,9 @@ Get Session
 
 ### Example
 ```javascript
-import {Unicauth} from 'unicauth';
+import {CircleAuth} from 'circleauth';
 
-let apiInstance = new Unicauth.UnicAuthApi();
+let apiInstance = new CircleAuth.CircleAuthApi();
 let x_ua_appKey = "x_ua_appKey_example"; // String | Application `appKey`
 let s = "s_example"; // String | `sessionID` to retrieve. This information comes from the [Login Authentication Return](#section/Login-Authentication) and [Factor Authentication Return](#section/Factor-Authentication).
 let signature = "signature_example"; // String | [Signature](#section/Signature) generated from the Query string.
@@ -147,9 +147,9 @@ Get User Session
 
 ### Example
 ```javascript
-import {Unicauth} from 'unicauth';
+import {CircleAuth} from 'circleauth';
 
-let apiInstance = new Unicauth.UnicAuthApi();
+let apiInstance = new CircleAuth.CircleAuthApi();
 let x_ua_appKey = "x_ua_appKey_example"; // String | Application `appKey`
 let sessionID = "sessionID_example"; // String | `sessionID` to retrieve. This information comes from the [Login Authentication Return](#section/Login-Authentication) and [Factor Authentication Return](#section/Factor-Authentication).
 let userID = "userID_example"; // String | `userID` to retrieve. This information comes from the [Login Authentication Return](#section/Login-Authentication) and [Factor Authentication Return](#section/Factor-Authentication).

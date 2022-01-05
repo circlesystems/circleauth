@@ -73,4 +73,4 @@ Class | Method | HTTP request | Description
 
 1.  Update package `version` at `package.json`.
 2.  Open terminal and run `npm publish`.
-3.  Visit https://www.npmjs.com/package/@circlesystems/cicleauth to check latest version.
+3.  Visit https://www.npmjs.com/package/@circlesystems/circleauth to check latest version.

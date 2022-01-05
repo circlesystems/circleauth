@@ -1,9 +1,9 @@
-# Unicauth.Model2FAResponseData
+# CircleAuth.Model2FAResponseData
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**factorUrl** | **String** | The URL that will open Unic Auth website or the app to request the user acceptance. Check [Factor Authentication](#section/FactorAuthentication)). acceptance. | 
+**factorUrl** | **String** | The URL that will open Circle Auth website or the app to request the user acceptance. Check [Factor Authentication](#section/FactorAuthentication)). acceptance. | 
 **customID** | **String** | The customID parameter can be anything to track back to your system. Example: &#x60;session-123&#x60; | 
 **returnUrl** | **String** | The return URL that will be used for redirection when the 2FA is accepted. | 
 **webhookUrl** | **String** | Webhook URL to send data when 2FA is accepted. Check out [2FA Webhook](#operation/2FAWebhook) for request specification. | [optional] 

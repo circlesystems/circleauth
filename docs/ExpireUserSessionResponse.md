@@ -1,4 +1,4 @@
-# Unicauth.ExpireUserSessionResponse
+# CircleAuth.ExpireUserSessionResponse
 
 ## Properties
 Name | Type | Description | Notes

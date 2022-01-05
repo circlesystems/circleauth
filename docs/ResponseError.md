@@ -1,4 +1,4 @@
-# Unicauth.ResponseError
+# CircleAuth.ResponseError
 
 ## Properties
 Name | Type | Description | Notes

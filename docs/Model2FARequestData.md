@@ -1,4 +1,4 @@
-# Unicauth.Model2FARequestData
+# CircleAuth.Model2FARequestData
 
 ## Properties
 Name | Type | Description | Notes

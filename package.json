@@ -1,14 +1,14 @@
 {
-  "name": "@habloapp/unicauth",
-  "version": "1.0.2",
-  "description": "Unic Auth SDK package",
+  "name": "@circlesystems/circleauth",
+  "version": "1.1.1",
+  "description": "Circle Auth SDK package",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/habloapp/unicauth.git"
+    "url": "git+https://github.com/circlesystems/circleauth.git"
   },
   "keywords": [
-    "unicauth",
+    "circleauth",
     "auth",
     "authn",
     "authentication",
@@ -18,12 +18,12 @@
     "passwordless"
   ],
   "author": {
-    "name": "HabloApp Inc.",
-    "email": "info@unicauth.com",
-    "website": "https://unicauth.com"
+    "name": "Circle Systems Inc.",
+    "email": "support@gocircle.ai",
+    "website": "https://circleauth.gocircle.ai"
   },
   "license": "ISC",
-  "homepage": "https://unicauth.com/alpha",
+  "homepage": "https://circleauth.gocircle.ai",
   "scripts": {
     "test": "mocha --require @babel/register --recursive"
   },

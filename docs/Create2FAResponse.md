@@ -1,4 +1,4 @@
-# Unicauth.Create2FAResponse
+# CircleAuth.Create2FAResponse
 
 ## Properties
 Name | Type | Description | Notes

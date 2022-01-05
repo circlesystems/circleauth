@@ -1,4 +1,4 @@
-# Unicauth.GetSessionResponseData
+# CircleAuth.GetSessionResponseData
 
 ## Properties
 Name | Type | Description | Notes
