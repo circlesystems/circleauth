@@ -1,16 +1,16 @@
-# Unic Auth
+# Circle Auth
 
-Unic Auth - Node.js client for [Unic Auth API](https://unicauth.com/alpha/docs/)
+Circle Auth - Node.js client for [Circle Auth API](https://circleauth.gocircle.ai/docs/)
 <br>
 
-Unic Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
+Circle Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
 <br>
 
-We recommend using our [Unic Auth Wrapper](https://github.com/habloapp/unicauth-wrapper) instead of this module.
+We recommend using our [Circle Auth Wrapper](https://github.com/circlesystems/circleauth-wrapper) instead of this module.
 
 ## Installation
 
-First make sure to get your credentials on [Unic Auth](https://console.unicauth.com/), if you want to test first, use [Unic Auth - Demo](https://unicauth.com/demo)
+First make sure to get your credentials on [Circle Auth Console](https://console.gocircle.ai/), if you want to test first, use [Circle Auth - Demo](https://circleauth.gocircle.ai/demo)
 
 ### For [Node.js](https://nodejs.org/)
 
@@ -19,7 +19,7 @@ First make sure to get your credentials on [Unic Auth](https://console.unicauth.
 Install it via:
 
 ```shell
-npm install @habloapp/unicauth --save
+npm install @circlesystems/circleauth --save
 ```
 
 ## Getting Started
@@ -27,10 +27,10 @@ npm install @habloapp/unicauth --save
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var unicauth = require('@habloapp/unicauth');
+var circleauth = require('@circlesystems/circleauth');
 
-var api = new unicauth.UnicAuthApi()
-var body = new unicauth.Create2FARequest(); // {Create2FARequest} 
+var api = new circleauth.CircleAuthApi()
+var body = new circleauth.Create2FARequest(); // {Create2FARequest} 
 var x_ua_appKey = "x_ua_appKey_example"; // {String} Application `appKey`
 
 api.create2FA(body, x_ua_appKey).then(function(data) {
@@ -43,34 +43,34 @@ api.create2FA(body, x_ua_appKey).then(function(data) {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://unicauth.com/api*
+All URIs are relative to *https://circleauth.gocircle.ai/api*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Unicauth.UnicAuthApi* | [**create2FA**](docs/UnicAuthApi.md#create2FA) | **POST** /2fa/create/ | Create 2FA
-*Unicauth.UnicAuthApi* | [**expireUserSession**](docs/UnicAuthApi.md#expireUserSession) | **POST** user/session/expire | Expire User Session
-*Unicauth.UnicAuthApi* | [**getSession**](docs/UnicAuthApi.md#getSession) | **GET** /session/ | Get Session
-*Unicauth.UnicAuthApi* | [**getUserSession**](docs/UnicAuthApi.md#getUserSession) | **GET** user/session | Get User Session
+*CircleAuth.CircleAuthApi* | [**create2FA**](docs/CircleAuthApi.md#create2FA) | **POST** /2fa/create/ | Create 2FA
+*CircleAuth.CircleAuthApi* | [**expireUserSession**](docs/CircleAuthApi.md#expireUserSession) | **POST** user/session/expire | Expire User Session
+*CircleAuth.CircleAuthApi* | [**getSession**](docs/CircleAuthApi.md#getSession) | **GET** /session/ | Get Session
+*CircleAuth.CircleAuthApi* | [**getUserSession**](docs/CircleAuthApi.md#getUserSession) | **GET** user/session | Get User Session
 
 ## Documentation for Models
 
- - [Unicauth.Create2FARequest](docs/Create2FARequest.md)
- - [Unicauth.Create2FAResponse](docs/Create2FAResponse.md)
- - [Unicauth.ExpireUserSessionRequest](docs/ExpireUserSessionRequest.md)
- - [Unicauth.ExpireUserSessionRequestData](docs/ExpireUserSessionRequestData.md)
- - [Unicauth.ExpireUserSessionResponse](docs/ExpireUserSessionResponse.md)
- - [Unicauth.ExpireUserSessionResponseData](docs/ExpireUserSessionResponseData.md)
- - [Unicauth.GetSessionResponse](docs/GetSessionResponse.md)
- - [Unicauth.GetSessionResponseData](docs/GetSessionResponseData.md)
- - [Unicauth.GetUserSessionResponse](docs/GetUserSessionResponse.md)
- - [Unicauth.GetUserSessionResponseData](docs/GetUserSessionResponseData.md)
- - [Unicauth.Model2FARequestData](docs/Model2FARequestData.md)
- - [Unicauth.Model2FAResponseData](docs/Model2FAResponseData.md)
- - [Unicauth.ResponseError](docs/ResponseError.md)
+ - [CircleAuth.Create2FARequest](docs/Create2FARequest.md)
+ - [CircleAuth.Create2FAResponse](docs/Create2FAResponse.md)
+ - [CircleAuth.ExpireUserSessionRequest](docs/ExpireUserSessionRequest.md)
+ - [CircleAuth.ExpireUserSessionRequestData](docs/ExpireUserSessionRequestData.md)
+ - [CircleAuth.ExpireUserSessionResponse](docs/ExpireUserSessionResponse.md)
+ - [CircleAuth.ExpireUserSessionResponseData](docs/ExpireUserSessionResponseData.md)
+ - [CircleAuth.GetSessionResponse](docs/GetSessionResponse.md)
+ - [CircleAuth.GetSessionResponseData](docs/GetSessionResponseData.md)
+ - [CircleAuth.GetUserSessionResponse](docs/GetUserSessionResponse.md)
+ - [CircleAuth.GetUserSessionResponseData](docs/GetUserSessionResponseData.md)
+ - [CircleAuth.Model2FARequestData](docs/Model2FARequestData.md)
+ - [CircleAuth.Model2FAResponseData](docs/Model2FAResponseData.md)
+ - [CircleAuth.ResponseError](docs/ResponseError.md)
 
 
 ## Distribuition
 
 1.  Update package `version` at `package.json`.
 2.  Open terminal and run `npm publish`.
-3.  Visit https://www.npmjs.com/package/@habloapp/unicauth to check latest version.
+3.  Visit https://www.npmjs.com/package/@circlesystems/cicleauth to check latest version.
