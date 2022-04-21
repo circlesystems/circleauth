@@ -45,7 +45,7 @@ export class GetSessionResponse {
     if (data) {
       obj = obj || new GetSessionResponse();
       if (data.hasOwnProperty('data'))
-        obj.data = GetSessionResponseData.constructFromObject(data['data']);
+        obj.data = data['data'];
       if (data.hasOwnProperty('signature'))
         obj.signature = ApiClient.convertToType(data['signature'], 'String');
     }
