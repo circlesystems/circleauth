@@ -13,7 +13,9 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
+import {
+  ApiClient
+} from '../ApiClient';
 
 /**
  * The GetSessionResponseData model module.
@@ -31,14 +33,24 @@ export class GetSessionResponseData {
    * @param sessionID {String} 
    * @param type {module:model/GetSessionResponseData.TypeEnum} 
    * @param userID {String} 
+   * @param adminUserID {Boolean}
+   * @param denyAuthorize {Boolean}
+   * @param email {Boolean}
+   * @param phone {Boolean}
+   * @param userHashedEmails {Array.<String>}
    */
-  constructor(authID, miliUnixtime, returnUrl, sessionID, type, userID) {
+  constructor(authID, miliUnixtime, returnUrl, sessionID, type, userID, adminUserID, denyAuthorize, email, phone, userHashedEmails) {
     this.authID = authID;
     this.miliUnixtime = miliUnixtime;
     this.returnUrl = returnUrl;
     this.sessionID = sessionID;
     this.type = type;
     this.userID = userID;
+    this.adminUserID = adminUserID;
+    this.denyAuthorize = denyAuthorize;
+    this.email = email;
+    this.phone = phone;
+    this.userHashedEmails = userHashedEmails;
   }
 
   /**
@@ -63,6 +75,16 @@ export class GetSessionResponseData {
         obj.type = ApiClient.convertToType(data['type'], 'String');
       if (data.hasOwnProperty('userID'))
         obj.userID = ApiClient.convertToType(data['userID'], 'String');
+      if (data.hasOwnProperty('adminUserID'))
+        obj.adminUserID = ApiClient.convertToType(data['adminUserID'], 'Boolean');
+      if (data.hasOwnProperty('denyAuthorize'))
+        obj.denyAuthorize = ApiClient.convertToType(data['denyAuthorize'], 'Boolean');
+      if (data.hasOwnProperty('email'))
+        obj.email = ApiClient.convertToType(data['email'], 'Boolean');
+      if (data.hasOwnProperty('phone'))
+        obj.phone = ApiClient.convertToType(data['phone'], 'Boolean');
+      if (data.hasOwnProperty('userHashedEmails'))
+        obj.userHashedEmails = ApiClient.convertToType(data['userHashedEmails'], ['String']);
     }
     return obj;
   }
@@ -89,6 +111,31 @@ GetSessionResponseData.prototype.returnUrl = undefined;
 GetSessionResponseData.prototype.sessionID = undefined;
 
 /**
+ * @member {Boolean} adminUserID
+ */
+GetSessionResponseData.prototype.adminUserID = undefined;
+
+/**
+ * @member {Boolean} denyAuthorize
+ */
+GetSessionResponseData.prototype.denyAuthorize = undefined;
+
+/**
+ * @member {Boolean} email
+ */
+GetSessionResponseData.prototype.email = undefined;
+
+/**
+ * @member {Boolean} phone
+ */
+GetSessionResponseData.prototype.phone = undefined;
+
+/**
+ * @member {Array.<String>} phone
+ */
+GetSessionResponseData.prototype.userHashedEmails = undefined;
+
+/**
  * Allowed values for the <code>type</code> property.
  * @enum {String}
  * @readonly
@@ -104,7 +151,14 @@ GetSessionResponseData.TypeEnum = {
    * value: "twoFactor"
    * @const
    */
-  twoFactor: "twoFactor"
+  twoFactor: "twoFactor",
+
+  /**
+   * value: "authorization"
+   * @const
+   */
+  authorization: "authorization"
+
 };
 /**
  * @member {module:model/GetSessionResponseData.TypeEnum} type
@@ -115,4 +169,3 @@ GetSessionResponseData.prototype.type = undefined;
  * @member {String} userID
  */
 GetSessionResponseData.prototype.userID = undefined;
-
