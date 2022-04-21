@@ -45,7 +45,7 @@ export class ExpireUserSessionResponse {
     if (data) {
       obj = obj || new ExpireUserSessionResponse();
       if (data.hasOwnProperty('data'))
-        obj.data = ExpireUserSessionResponseData.constructFromObject(data['data']);
+        obj.data = data['data'];
       if (data.hasOwnProperty('signature'))
         obj.signature = ApiClient.convertToType(data['signature'], 'String');
     }

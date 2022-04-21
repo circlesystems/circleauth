@@ -89,7 +89,13 @@ ExpireUserSessionResponseData.StatusEnum = {
    * value: "expired"
    * @const
    */
-  expired: "expired"
+  expired: "expired",
+
+  /**
+   * value: "active"
+   * @const
+   */
+  active: "active"
 };
 /**
  * @member {module:model/ExpireUserSessionResponseData.StatusEnum} status
