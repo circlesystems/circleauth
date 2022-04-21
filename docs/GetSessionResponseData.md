@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **adminUserID** | **Boolean** |  |
 **email** | **Boolean** |  | 
 **phone** | **Boolean** |  | 
-**userHashedEmails** | **Array** |  | 
+**userHashedEmails** | **Array.<String>** |  | 
 
 <a name="TypeEnum"></a>
 ## Enum: TypeEnum
