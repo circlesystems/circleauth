@@ -13,8 +13,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {GetUserSessionResponseData} from './GetUserSessionResponseData';
+import {ApiClient} from '../ApiClient.js';
+import {GetUserSessionResponseData} from './GetUserSessionResponseData.js';
 
 /**
  * The GetUserSessionResponse model module.

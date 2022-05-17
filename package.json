@@ -1,6 +1,6 @@
 {
   "name": "@circlesystems/circleauth",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Circle Auth SDK package",
   "main": "src/index.js",
   "repository": {

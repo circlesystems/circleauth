@@ -15,7 +15,7 @@
  */
 import {
   ApiClient
-} from '../ApiClient';
+} from '../ApiClient.js';
 
 /**
  * The GetSessionResponseData model module.

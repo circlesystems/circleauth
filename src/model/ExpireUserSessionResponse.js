@@ -13,8 +13,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {ExpireUserSessionResponseData} from './ExpireUserSessionResponseData';
+import {ApiClient} from '../ApiClient.js';
+import {ExpireUserSessionResponseData} from './ExpireUserSessionResponseData.js';
 
 /**
  * The ExpireUserSessionResponse model module.

@@ -13,8 +13,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {Model2FAResponseData} from './Model2FAResponseData';
+import {ApiClient} from '../ApiClient.js';
+import {Model2FAResponseData} from './Model2FAResponseData.js';
 
 /**
  * The Create2FAResponse model module.

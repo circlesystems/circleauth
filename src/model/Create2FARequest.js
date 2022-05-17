@@ -13,8 +13,8 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from '../ApiClient';
-import {Model2FARequestData} from './Model2FARequestData';
+import {ApiClient} from '../ApiClient.js';
+import {Model2FARequestData} from './Model2FARequestData.js';
 
 /**
  * The Create2FARequest model module.

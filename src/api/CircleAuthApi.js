@@ -13,14 +13,14 @@
  * Do not edit the class manually.
  *
  */
-import {ApiClient} from "../ApiClient";
-import {Create2FARequest} from '../model/Create2FARequest';
-import {Create2FAResponse} from '../model/Create2FAResponse';
-import {ExpireUserSessionRequest} from '../model/ExpireUserSessionRequest';
-import {ExpireUserSessionResponse} from '../model/ExpireUserSessionResponse';
-import {GetSessionResponse} from '../model/GetSessionResponse';
-import {GetUserSessionResponse} from '../model/GetUserSessionResponse';
-import {ResponseError} from '../model/ResponseError';
+import {ApiClient} from "../ApiClient.js";
+import {Create2FARequest} from '../model/Create2FARequest.js';
+import {Create2FAResponse} from '../model/Create2FAResponse.js';
+import {ExpireUserSessionRequest} from '../model/ExpireUserSessionRequest.js';
+import {ExpireUserSessionResponse} from '../model/ExpireUserSessionResponse.js';
+import {GetSessionResponse} from '../model/GetSessionResponse.js';
+import {GetUserSessionResponse} from '../model/GetUserSessionResponse.js';
+import {ResponseError} from '../model/ResponseError.js';
 
 /**
 * CircleAuth service.
