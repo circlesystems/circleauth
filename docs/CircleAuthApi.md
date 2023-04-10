@@ -1,6 +1,6 @@
 # CircleAuth.CircleAuthApi
 
-All URIs are relative to *https://circleauth.gocircle.ai/api*
+All URIs are relative to *https://circleaccess.circlesecurity.ai/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

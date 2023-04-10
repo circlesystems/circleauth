@@ -19,11 +19,11 @@
   ],
   "author": {
     "name": "Circle Systems Inc.",
-    "email": "support@gocircle.ai",
-    "website": "https://circleauth.gocircle.ai"
+    "email": "support@circlesecurity.ai",
+    "website": "https://circleaccess.circlesecurity.ai"
   },
   "license": "ISC",
-  "homepage": "https://circleauth.gocircle.ai",
+  "homepage": "https://circleaccess.circlesecurity.ai",
   "scripts": {
     "test": "mocha --require @babel/register --recursive"
   },
