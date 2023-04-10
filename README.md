@@ -1,6 +1,6 @@
 # Circle Auth
 
-Circle Auth - Node.js client for [Circle Auth API](https://circleauth.gocircle.ai/docs/)
+Circle Auth - Node.js client for [Circle Auth API](https://circleaccess.circlesecurity.ai/docs/)
 <br>
 
 Circle Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
@@ -10,7 +10,7 @@ We recommend using our [Circle Auth Wrapper](https://github.com/circlesystems/ci
 
 ## Installation
 
-First make sure to get your credentials on [Circle Auth Console](https://console.gocircle.ai/), if you want to test first, use [Circle Auth - Demo](https://circleauth.gocircle.ai/demo)
+First make sure to get your credentials on [Circle Auth Console](https://console.circlesecurity.ai/), if you want to test first, use [Circle Auth - Demo](https://circleaccess.circlesecurity.ai/demo)
 
 ### For [Node.js](https://nodejs.org/)
 
@@ -43,7 +43,7 @@ api.create2FA(body, x_ua_appKey).then(function(data) {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://circleauth.gocircle.ai/api*
+All URIs are relative to *https://circleaccess.circlesecurity.ai/api*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
